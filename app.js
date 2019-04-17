@@ -16,9 +16,7 @@ var app = express();
 
 // Set up mongoose connection
 var mongoose = require('mongoose');
-var dev_db_url_ll='mongodb+srv://cc:fab@cluster0-ueaqu.mongodb.net/local_library?retryWrites=true';
-var dev_db_url='mongodb+srv://cc:fab@cluster0-shard-00-00-ueaqu.mongodb.net/delivery_service?retryWrites=true';
-//var dev_db_url = 'mongodb+srv://cc:fab@cluster0-ueaqu.mongodb.net/test?retryWrites=true'
+
 var mongoDB = process.env.MONGODB_URI || dev_db_url_ll;
 mongoose.connect(mongoDB, { useNewUrlParser: true });
 mongoose.Promise = global.Promise;
