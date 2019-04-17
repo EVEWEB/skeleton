@@ -1,6 +1,6 @@
 Mutation of the
 Tutorial "Local Library" website written in in Node/Express
-for purposes of experimenting incrementally
+for purposes of incremental experimentation
 
 ----
 Originally,
